@@ -1,0 +1,107 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+
+.navbar-brand {
+      margin-left: 5%;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.9;
+  }
+
+.containter-fluid {
+    text-emphasis-color: WHITE;
+}
+
+.footer {
+    background-color: rgb(184, 209, 184);
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+.footer h6 {
+    animation: fadeinout 4s 1s alternate;
+    animation-iteration-count: infinite;
+    vertical-align: middle;
+    line-height: 60px;
+    color: #139906f8;
+}
+
+.message h1{
+    animation: fadeinout 4s 0.1s alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeinout {
+    0% {
+        color: rgba(255, 255, 255, 0.3);
+    }
+    20% {
+        color: lightskyblue;
+    }
+    
+    50% {
+        color: rgb(39, 235, 39);
+    }
+
+    60% {
+        color: lightgreen;
+    }
+
+    100% {
+        color: rgb(245, 167, 0);
+        transform: scale(1.2)
+    }
+}
+
+/*form*/
+
+.login-form {
+    padding: 5% 0;
+}
+
+.form-input {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.form-input::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+.form-header {
+    color: white;
+    opacity: 0.9;
+}
+
+#formBTN {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: aliceblue;
+    opacity: 0.8;
+
+}
+
+#formBTN :focus {
+    color: green;
+}
+
+.form-footer {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.form-footer a {
+    color: green;
+}
